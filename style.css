@@ -452,12 +452,13 @@ body {
 }
 
 .treehole-card {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 25px;
     display: flex;
     gap: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .treehole-avatar {
@@ -465,7 +466,7 @@ body {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
+    background: linear-gradient(135deg, #667eea, #764ba2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -474,14 +475,16 @@ body {
 
 .treehole-content p {
     margin-bottom: 15px;
-    opacity: 0.95;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 .treehole-meta {
     display: flex;
     gap: 15px;
     font-size: 0.85rem;
-    opacity: 0.8;
+    color: #666;
 }
 
 .view-more {
@@ -503,7 +506,7 @@ body {
 
 /* 页脚 */
 footer {
-    background: #2c3e50;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding: 50px 20px;
 }
@@ -568,8 +571,8 @@ footer {
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    color: #999;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.85);
 }
 
 /* 页面标题 */
